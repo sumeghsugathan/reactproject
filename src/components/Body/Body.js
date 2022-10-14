@@ -10,6 +10,7 @@ import Month from './Month'
 import Transictions from './Transictions'
 
 import './Body.css'
+import Activity from './Activity'
 
 
 
@@ -32,7 +33,9 @@ function Body() {
         </div>
         <div className="second">
             <Chart/>
+            <Activity/>
         </div>
+       
         
         
     </div>

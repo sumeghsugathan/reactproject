@@ -6,15 +6,7 @@ const Chart = () => {
   return (
     <div className='chart-container'>
       <img className='chart' src={chart} alt="" />
-      <div className='activity'>
-        ACTIVITY
-      </div>
-      <div className="activity-container">
-       <div className="box1"></div>
-       <div className="box2"></div>
-       <div className="box2"></div>
       
-      </div>
       
     </div>
   )

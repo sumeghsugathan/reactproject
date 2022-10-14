@@ -1,0 +1,44 @@
+.activity{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.activity-container{
+    display: flex;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: normal;
+    gap: 1rem;
+    border: 1px solid rgb(45, 50, 48);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #fff;
+  
+}
+.box2{
+    height: 100px;
+    width: 100px; 
+    background-color: transparent;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 20px;  
+    font-weight: normal;
+    gap: 1rem;
+    border: 1px solid rgb(45, 50, 48);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.box1:hover{
+    cursor: pointer;
+    background-color: rgb(20, 194, 216);
+}
+.box2:hover{
+    cursor: pointer;
+    background-color: rgb(20, 194, 216);
+}

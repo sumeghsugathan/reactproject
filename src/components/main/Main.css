@@ -7,7 +7,7 @@
     
 }
 .left-h{
-    display: flex;
+    display: block;
     flex: 3;
     justify-content: space-between;
     padding: 7rem;

@@ -5,18 +5,33 @@
     color: aliceblue;
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 20p;
 
 }
 .box{
    height: 100px;
    width: 100px;
+   font-weight: normal;
+   gap: 1rem;
+   border: 1px solid rgb(45, 50, 48);
+   background-color: transparent;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
    border-radius: 12px;
-   border-color: white;
-   opacity: 3%;
+   font-size: 12px;
    margin-left: 30px;
+   color: #fff;
+   
+   
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(20, 194, 216);
 }
 .raw-one{
     margin-top: 20px;
     display: flex;
     /* justify-content: space-evenly; */
+}
+.actions span{
+    margin-left: 30px;
 }
