@@ -10,8 +10,7 @@ function Main() {
   return (
     <div className='main'>
        <Header/>
-       <Body/>
-    
+       <Body/> 
     </div>
   
   )

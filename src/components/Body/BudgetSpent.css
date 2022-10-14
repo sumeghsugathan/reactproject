@@ -1,0 +1,67 @@
+.line-container{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.line1{
+    margin-top: 20px;
+    background-color: #fff;
+    height: 2px;
+    width: 3rem;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.line2{
+    margin-top: 20px;
+    background-color: #fff;
+    height: 2px;
+    width: 3rem;
+    position: relative;
+    display: flex;
+    
+
+}
+.line1>div{
+    position: absolute;
+    background-color: orange;
+    width: 2rem ;
+    height: 2px ;
+
+
+}
+.line2>div{
+    position: absolute;
+    background-color: green;
+    width: 2rem ;
+    height: 2px ;
+
+}
+.budget-spent{
+    display: flex;
+    
+}
+
+.budget{
+  
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+.spent{
+  
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+   
+
+}

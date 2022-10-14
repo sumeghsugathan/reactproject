@@ -1,0 +1,13 @@
+.months{
+    height: 50px;
+    width: 170px;
+    background-color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    opacity: 13%;
+    display: flex;
+
+}

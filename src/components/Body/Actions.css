@@ -1,0 +1,22 @@
+.actions{
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.box{
+   height: 100px;
+   width: 100px;
+   border-radius: 12px;
+   border-color: white;
+   opacity: 3%;
+   margin-left: 30px;
+}
+.raw-one{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
