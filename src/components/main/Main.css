@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-image: linear-gradient(to right, #264def, #c06a97);
+   border-radius: 20px;
+    
+}
+.left-h{
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    padding: 7rem;
+    padding-top: 3rem;
+
+}
+.right-h{
+    flex: 1;
+    padding: 7rem;
+    padding-top: 4rem;
+
+}

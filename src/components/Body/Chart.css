@@ -1,0 +1,36 @@
+
+.chart{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.activity{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.activity-container{
+    display: flex;
+}
+.box1{
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 12px;
+  opacity: 3%;
+  margin-left: 150px;
+  margin-top: 20px;
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 12px;
+    opacity: 3%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
