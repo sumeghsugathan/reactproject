@@ -1,5 +1,8 @@
 import React from 'react'
 import './Activity.css'
+import CallReceivedIcon from '@mui/icons-material/CallReceived';
+import AddCardIcon from '@mui/icons-material/AddCard';
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 const Activity = () => {
   return (
     <div>
@@ -7,10 +10,13 @@ const Activity = () => {
         ACTIVITY
       </div>
       <div className="activity-container">
-       <button className="box1">Income</button>
-       <button className="box2">Expense</button>
-       <button className="box2">Cashback</button>
-      
+        <button className="box1">
+          <CallReceivedIcon/>Income</button>
+        <button className="box2"><AddCardIcon/>
+          Expense</button>
+        <button className="box2">
+          <CurrencyExchangeIcon/>
+          Cashback</button>       
       </div>
     </div>
   )

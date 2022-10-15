@@ -1,8 +1,6 @@
 .months{
-    height: 50px;
-    width: 170px;
-    align-items: center;
-    justify-content: center;
+    height: 100px;
+    width: 200px;
     background-color: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
@@ -12,5 +10,57 @@
     border: 1px solid rgb(45, 50, 48);
     display: flex;
     font-size: 10px;
+    padding: 10px;
+
+}
+.may{
+    height: 40px;
+    margin-left: 10px;
+    width: 30px;
+    font-weight: normal;
+    gap: 1rem;
+    border-radius: 12px;
+    background-image: linear-gradient(white,rgb(136, 129, 129));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.apr{
+    height: 50px;
+    width: 30px;
+    margin-left: 10px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    gap: 1rem;
+    border-radius: 12px;   
+    background-image: linear-gradient(white,rgb(81, 78, 78));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.jun{
+    margin-bottom: 30px;
+    height: 70px;
+    width: 30px;
+    margin-left: 10px;
+    font-weight: normal;
+    gap: 1rem;
+    border-radius: 12px;
+    background-image: linear-gradient(rgb(124, 18, 52),rgb(157, 18, 113));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.month-container{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+.message{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.amount{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
 
 }
