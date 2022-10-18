@@ -17,7 +17,41 @@ import Activity from './Activity'
 function Body() {
   return (
     <div className='body'>
-        <div className="left-container">
+      <div className="one">
+        <SearchBar/>
+        <Balance/>
+        <BudgetSpent/>  
+        <Actions/>
+
+      </div>
+      <div className="two">
+        <OrangeBox/>  
+        <Month/> 
+        <Transictions/>
+
+      </div>
+      <div className="three">
+        <Chart/>
+        <Activity/>
+
+
+      </div>
+
+{/* test purpuse */}
+
+      
+
+
+
+
+
+
+
+
+
+
+
+        {/* <div className="left-container">
             <SearchBar/>
             <Balance/>
             <BudgetSpent/>  
@@ -34,7 +68,7 @@ function Body() {
         <div className="second">
             <Chart/>
             <Activity/>
-        </div>
+        </div> */}
        
         
         
