@@ -1,11 +1,14 @@
 .header{
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-between;
   height: 5rem;
   width: 100%;
+  padding: 10px;
       
 }
 .header-menu{
+  
   margin-top: 50px;
   list-style: none;
   display: flex;

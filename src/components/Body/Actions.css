@@ -32,8 +32,11 @@
     background-color: rgb(20, 194, 216);
 }
 .raw-one{
+    flex-wrap: wrap;
     margin-top: 20px;
     display: flex;
+    gap: 10px;
+    
     /* justify-content: space-evenly; */
 }
 .actions span{

@@ -1,7 +1,8 @@
 .body{
     display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(to right, #19234b, #191a2c, #182044);
-    height:700px;
+    /* height:700px; */
     border-bottom-left-radius:20px;
     border-bottom-right-radius: 20px;
     flex-direction: row;
@@ -10,13 +11,25 @@
 .one{
     width: 30%;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
     border-right: 1px solid rgb(65, 64, 64);
 }
 .two{
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
     padding: 10px;
 }
 .three{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 40%;
     padding: 10px;
+    align-items: center;
 }
